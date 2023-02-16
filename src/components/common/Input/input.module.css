@@ -1,0 +1,78 @@
+.inp {
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    position: relative;
+    background-color: transparent;
+}
+
+.inp:focus::placeholder {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    font-size: 12px;
+
+}
+
+.inpmain {
+    @apply border-b-gray-400 border-b-[1px] w-72 mx-auto flex justify-between
+}
+
+.secinpu {
+    @apply border-b-gray-400 border-b-[1px] pt-10 pb-1
+}
+
+.secinpmain {
+    @apply w-72 mx-auto
+}
+
+.inpicon {
+    @apply text-gray-400 text-[20px]
+}
+
+.forgetpas {
+    @apply text-sm text-[#399BDA] cursor-pointer pt-2
+}
+
+.signBtn {
+    @apply bg-[#FF4800] py-2 text-[#FFFFFF] w-72
+}
+
+.btnmain {
+    @apply flex justify-center mt-7
+}
+
+.newto {
+    @apply text-[#636B78] text-base
+}
+
+.sign {
+    @apply text-[#399BDA] cursor-pointer
+}
+
+.mainsign {
+    @apply flex justify-center pt-2
+}
+
+.inpfooter {
+    @apply flex justify-center md:absolute top-[535px] left-[90px] md:mt-0 mt-[120px]
+}
+
+.copywrite {
+    @apply text-[#636B78] hover:border-b-black border-b-[1px] cursor-pointer text-sm hover:p-0
+}
+
+.contactmain {
+    @apply text-[#636B78] text-sm
+}
+
+.contactsec {
+    @apply hover:border-b-black hover:text-black border-b-[1px] cursor-pointer text-sm
+}
+
+.globalmain {
+    @apply text-[#636B78] text-sm flex gap-2 items-center
+}
+
+.globalsec {
+    @apply hover:border-b-black hover:text-black border-b-[1px] cursor-pointer text-sm
+}

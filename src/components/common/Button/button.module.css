@@ -1,0 +1,8 @@
+.wrapper {
+    @apply w-full
+}
+
+.button {
+    @apply bg-[#494A4B] text-[#FFFFFF] px-8 py-2 rounded-full text-sm font-normal
+}
+
